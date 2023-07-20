@@ -1,0 +1,14 @@
+<p>A wolf goes to the straw house. </p>
+<p>늑대 한마리가 짚으로 만들어진 집에 나타탔어요.</p>
+<br/>
+<p>He is hungry.</p>
+<p>늑대는 배가 고팠어요</p>
+<br/>
+<p>“Little pig, let me in.” </p>
+<p>"아기돼지야, 나를 들여보내줘."</p>
+<br/>
+<p>“No!” the pig says.</p>
+<p>"안돼!" 첫째돼지가 말했어요.</p>
+<br/>
+<p>“I won’t let you in.”</p>
+<p>"넌 들어올수 없어."</p>

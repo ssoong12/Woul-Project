@@ -1,0 +1,14 @@
+<p>‘Go away!’ said the dog. </p>
+<p>'저리 가!' 개가 말했어요. </p>
+<br/>
+<p>‘Go away!’ said the sheep. </p>
+<p>'저리 가!' 양이 말했어요. </p>
+<br/>
+<p>‘Go away!’ said the cow.  </p>
+<p>'저리 가!' 소가 말했어요. </p>
+<br/>
+<p>‘Go away!’ said the cat. </p>
+<p> '저리 가!' 고양이가 말했어요. </p>
+<br/>
+<p>No one wanted to be his friend.  </p>
+<p>아무도 그의 친구가 되고 싶어하지 않았어요.</p>

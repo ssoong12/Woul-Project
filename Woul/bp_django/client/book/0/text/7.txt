@@ -1,0 +1,11 @@
+<p>The fire burns the wolf.</p>
+<p>늑대에게 불이 붙었어요.</p>
+<br/>
+<p>“Ouch!” he says.</p>
+<p>아야!</p>
+<br/>
+<p>He runs!</p>
+<p>늑대는 도망갔어요!</p>
+<br/>
+<p>He does not come back.</p>
+<p>도망간 늑대는 돌아오지 않았답니다.</p>

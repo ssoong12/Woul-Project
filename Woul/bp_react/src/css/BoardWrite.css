@@ -1,0 +1,94 @@
+.board-noanswer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.board-write-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-bottom: 50px;
+}
+
+.board-write-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+}
+
+.board-write-title label {
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.board-write-title input {
+  display: flex;
+  flex-grow: 1;
+  border: none;
+  border-bottom: 1px solid #282c34;
+  padding: 5px;
+  margin: 10px;
+  background-color: #fafafa;
+  font-size: 23px;
+  width: 600px;
+}
+
+.board-write-content {
+  margin-top: 15px;
+  display: flex;
+  align-items: flex-start;
+  width: 53%;
+  margin-left: 20px;
+}
+
+.board-write-content textarea {
+  resize: none;
+  width: 100%;
+  width: 750px;
+  height: 330px;
+  min-height: 250px;
+  margin: 0 auto;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px solid #686868;
+  padding: 10px;
+}
+
+.board-write-button {
+  margin-top: 20px;
+  margin-left: 500px;
+}
+
+.board-write-button button {
+  margin-left: 10px;
+  text-align: center;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+.board-write-submit {
+  border: 2px solid var(--first-color);
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  background-color: transparent;
+  color: var(--first-color);
+}
+
+.board-write-submit:hover {
+  background-color: var(--first-color);
+  color: white;
+}
+
+.board-write-cancel:hover {
+  background-color: #cdcdcd;
+  color: black;
+}

@@ -1,0 +1,119 @@
+.board-noanswer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.board-answer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 110vh;
+}
+
+.board-answer-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 180px;
+  margin-bottom: 15px;
+  font-size: 23px;
+}
+
+.board-answer-middle_container {
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+.board-answer-writer {
+  text-align: left;
+  margin-right: 370px;
+}
+
+.board-answer-day {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.board-answer-content {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 20px;
+  margin: auto;
+  background-color: white;
+  width: 750px;
+  height: 330px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #686868;
+}
+
+.board-write_answer_write {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  margin-right: 660px;
+  font-size: 23px;
+}
+
+.board-answer-input {
+  align-items: flex-start;
+  width: 750px;
+  height: 330px;
+}
+
+.board-answer-input textarea {
+  width: 100%;
+  resize: none;
+  width: 750px;
+  height: 330px;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #686868;
+}
+
+.board-answer-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-left: 560px;
+  text-align: center;
+}
+
+.board-answer-button button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.board-answer_submit-button {
+  border: 2px solid var(--first-color);
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  background-color: transparent;
+  color: var(--first-color);
+}
+
+.board-answer_submit-button:hover {
+  background-color: var(--first-color);
+  color: white;
+}
+
+.board-answer_cancel-button:hover {
+  background-color: #cdcdcd;
+  color: black;
+}

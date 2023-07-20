@@ -1,0 +1,103 @@
+.voice_notice {
+    background-color: var(--background-color);;
+    padding: 10rem 0 0 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; /* 가로 정렬 */
+}
+
+.voice_notice_txt {
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid var(--first-color);
+    border-radius: 5px;
+
+}
+
+.voice_notice_img {
+    display: block;
+    float: left;
+}
+
+.voice_img {
+    margin: 5rem 0 1rem 0;
+}
+
+.voice_tutorial {
+    clear: left;
+    padding: 3rem;
+}
+
+.name_hint_text {
+    margin-top: 1rem;
+}
+
+
+.voice_btn{
+    background-color: var(--background-color);
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: -5px;
+    width: 100px;
+    height: 35px;
+    border: 2px solid;
+    border-color: var(--first-color);
+    border-radius: 0.25rem;
+    color: var(--first-color);
+}
+
+.voice_btn:hover{
+    background-color: var(--first-color);
+    color: white;
+} 
+
+.voice_input {
+    width: 20rem;
+    height: fit-content;
+    table-layout: fixed;
+}
+
+._row {
+    margin-bottom: 5rem;
+}
+
+
+input[type=file]::file-selector-button {
+    /* margin-top: 5rem; */
+    width: 95px;
+    height: 35px;
+    border: 2px solid;
+    border-color: var(--first-color);
+    border-radius: 0.25rem;
+    margin-left: 5px;
+    background: var(--first-color);
+    color: aliceblue;
+    font-size: 11pt;
+}
+
+
+.voiceMaking{
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.voiceMakingChild{
+    margin: 1rem;
+}
+
+.disabled_voice_btn{
+    background-color: var(--background-color);
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: -5px;
+    width: 100px;
+    height: 35px;
+    border: 2px solid;
+    border-color: gray;
+    border-radius: 0.25rem;
+    color: gray;
+}

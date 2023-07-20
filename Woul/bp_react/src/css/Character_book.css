@@ -1,0 +1,105 @@
+.justify-content-center{
+    padding:10rem 0 0 0;
+}
+.nav-item{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.nav-item >a{
+    font-size: 25px;
+    font-weight: bolder;
+    color:grey;
+}
+.nav-item>a:hover{
+    color:black;
+}
+/* #chracterbook_link1:focus,
+#chracterbook_link2:focus{
+    color:#4218D9;
+} */
+/* .characterbook_welcometext{
+    display: none;
+    width: 350px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10rem;
+    background-color:var(--first-color);
+    border-style: solid;
+    border-color: var(--first-color);
+    border-radius: 1.2rem;
+}
+.characterbook_welcometext.show{
+    display: block;
+}
+.characterbook_welcometext p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+    font-weight: var(--font-medium);
+    font-family: var(--kr-title-font);
+} */
+.characterbook_tabcontainer{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 400px 400px 400px;
+    align-items: stretch;
+    justify-content: center;
+    row-gap: 80px;
+    column-gap: 70px;
+
+}
+.characterbook_card{
+
+    /* margin: auto; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.1rem;
+}
+.characterbook_card:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0 6px 4px rgba(0, 0, 0, 0.2);
+}
+.characterbook_image1{
+    margin-top: 3rem;
+    width: 100%;
+}
+.characterbook_image1 >p{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 3.3rem;
+}
+.characterbook_image1>img{
+    width: 100%;
+}
+/* .chracterbook_info{
+    display: none;
+    justify-content: center;
+    align-items: end;
+}
+.chracterbook_info.show{
+    display: flex;
+} */
+.characterbook_info{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.characterbook_info >img{
+    text-align: center;
+    margin-left: 1%;
+    width: 80px;
+    height: 70px;
+    object-fit: contain;
+}
+.characterbook_text{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5%;
+}

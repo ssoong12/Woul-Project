@@ -1,0 +1,7 @@
+<p>Mummy Duck lived on a farm.  </p>
+<p>엄마 오리가 농장에 살고 있었습니다. </p>
+<br/>
+<p>In her nest, she had five little eggs <br/>
+and one big egg.</p>
+<p>그녀의 둥지에는 다섯 개의 작은 알과 <br/>
+하나의 큰 알이 있었습니다.</p>

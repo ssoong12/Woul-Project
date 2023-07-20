@@ -1,0 +1,13 @@
+<p>“Who’s that?’ </p>
+<p>'이게 누구지?'</p>
+<br/>
+<p> ‘It’s you,’ <br/>
+said another beautiful, white bird.</p>
+<p>그건 바로 너야. <br/>
+라고 또다른 아름다운 하얀 새가 말했어요.</p>
+<br/>
+<p>‘Me? But I’m an ugly duckling..’  </p>
+<p>'나?' 하지만 나는 못생긴 오리인걸.. </p>
+<br/>
+<p>‘Not any more. You’re a beautiful swan, like me.  </p>
+<p>'더이상은 아니야. 너는 나처럼 아름다운 백조야'</p>

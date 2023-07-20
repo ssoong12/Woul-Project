@@ -1,0 +1,41 @@
+.AgreementPage{
+    padding:10rem 0 0 0;
+}
+
+.Agreement_box{
+    width: 1000px;
+    height:600px;
+    background: white;
+    margin: auto;
+    border-radius: 2rem;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.h2-agree{
+    padding-top: 3rem;
+    margin-top: 0rem;
+}
+
+.div-agree{
+    margin: auto;
+    margin-top: 3rem;
+    padding: 5px;
+    width: 800px;
+    height: 250px; 
+    border: 1px solid rgb(198, 198, 198);
+    overflow: auto;
+    /* overflow: scroll; */
+    text-align: left;
+
+    /* overflow-x: hidden;
+    overflow-y: scroll;
+    white-space: pre-wrap; */
+}
+
+.agree_btn {
+    margin-top: 3rem;
+}
+
+.h3-pp {
+    padding-top: 5.5rem;
+}

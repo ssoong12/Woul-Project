@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Timmana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Timmana&display=swap');
+
+.test {
+    font-family: 'Timmana', sans-serif;
+}
+
+.div-flex {
+    display: flex;
+    /* height: 100%; */
+    align-items: center;
+}
+  
+.div-detection {
+    flex: 1;
+    height: 100%;
+    text-align: center;
+}
+
+.div-detection > * {
+    margin: 5px
+}
+
+.cw-btn {
+    margin-top: 10px;
+}
+
+.img-detection {
+    width: 35%;
+    margin: 7px;
+}
+
+#imageInput {
+    margin: 7px;
+    width: 50%;
+}
+
+.p-scorerange {
+    font-family: 'Carter One', cursive;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.p-score-ex {
+    color: #EF5350;
+}
+
+.p-score-gd {
+    color: #66BB6A;
+}
+
+.p-score-bd {
+    color: #757575;
+}
+
+.p-score {
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+.vertical {
+    width: 1px;
+    flex: 0.001;
+    height: 200px;
+    border-left : 1px dashed #444444;
+}

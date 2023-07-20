@@ -1,0 +1,35 @@
+
+
+.testmodal1 {
+    flex: 1;
+    background-color: #ffffff; 
+    /* background-color : rgba(0, 0, 0, 0.3); */
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    width: 20%;
+    height: 40%;
+    border-radius: 8px;
+    /* width: '50%';
+    height: '70%'; */
+    z-index: 50; 
+    transform: translate(-50%, -37%); 
+    box-shadow : 0 0 7px rgba(0, 0, 0, 0.5);
+}
+
+.testmodal2 {
+    flex: 1;
+    background-color: #ffffff; 
+    /* background-color : rgba(0, 0, 0, 0.3); */
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    width: 20%;
+    height: 65%;
+    border-radius: 8px;
+    /* width: '50%';
+    height: '70%'; */
+    z-index: 50; 
+    transform: translate(-50%, -37%); 
+    box-shadow : 0 0 7px rgba(0, 0, 0, 0.5);
+}

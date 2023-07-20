@@ -1,0 +1,10 @@
+<p>It started to get cold. It started to snow!</p>
+<p>날이 추워지고, 눈이 내리기 시작했어요!</p>
+<br/>
+<p>The ugly duckling found an empty barn <br/>
+and lived there. </p>
+<p>미운오리는 비어있는 헛간을 발견했고,<br/>
+그 곳에서 살았어요.</p>
+<br/>
+<p>He was cold, sad and alone.</p>
+<p>미운오리는 춥고, 슬프고 외로웠답니다. </p>

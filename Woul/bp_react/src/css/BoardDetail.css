@@ -1,0 +1,155 @@
+.board-noanswer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.board-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-bottom: 50px;
+}
+
+.board-detail-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 140px;
+  margin-bottom: 30px;
+  font-size: 23px;
+}
+
+.board-detail-title-text {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.board-detail-title-input {
+  margin: 0;
+  flex-grow: 1;
+}
+
+.board-detail-middle_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  margin-bottom: 30px;
+}
+
+.board-detail-writer {
+  margin: 0;
+  margin-right: 170px;
+}
+
+.board-detail-day {
+  margin: 0;
+  margin-left: 170px;
+}
+
+.board-detail-content {
+  font-size: 23px;
+  background-color: white;
+  width: 750px;
+  height: 330px;
+  text-align: left;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #686868;
+}
+
+.board-detail-button {
+  margin-top: 30px;
+  margin-bottom: 1px;
+}
+
+.board-detail-button button {
+  margin-left: 10px;
+  padding: 9px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.board-detail-answer-button {
+  border: 2px solid var(--first-color);
+  border-radius: 10px;
+  text-align: center;
+  background-color: transparent;
+  color: var(--first-color);
+  cursor: pointer;
+}
+
+.board-detail-answer-button:hover {
+  background-color: var(--first-color);
+  color: white;
+}
+
+.board-detail-cancel-button:hover {
+  background-color: #cdcdcd;
+  color: black;
+}
+
+/* 모달 오버레이 스타일 */
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* 모달 콘텐츠 스타일 */
+.ReactModal__Content {
+  width: 400px;
+  height: 190px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ReactModal__Content h2,
+.ReactModal__Content div {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* 버튼 컨테이너 스타일 */
+.board-detail-modal-button {
+  display: flex;
+  gap: 10px;
+}
+
+/* 확인 버튼 스타일 */
+.ReactModal__Content button.board-detail-modal-submit_button {
+  background-color: var(--first-color);
+  color: white;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+/* 취소 버튼 스타일 */
+.ReactModal__Content button.board-detail-modal-cancel_button {
+  background-color: var(--second-color);
+  background-color: #cdcdcd;
+  color: black;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+}

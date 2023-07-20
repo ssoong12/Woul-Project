@@ -1,0 +1,125 @@
+.JoinPage{
+    padding:10rem 0 0 0;
+}
+.joinpage_box{
+    width: 400px;
+    height:600px;
+    background: white;
+    margin: auto;
+    border-radius: 2rem;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0 6px 4px rgba(0, 0, 0, 0.2);
+}
+.joinpage_box >p{
+    font-size: 20px;
+    font-weight: var(--font-semi-bold);
+    padding-top: 3rem;
+    /* margin: auto; */
+}
+
+
+.join_confirm_btn1{
+    margin-top: 50px;
+    height: 30px;
+    border-radius: 0.25rem;
+    border-color:var(--first-color) ;
+    background: var(--first-color);
+    color: white;
+    font-size: 13px;
+}
+/* .join_confirm_btn1:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 4px rgba(0, 0, 0, 0.2);
+} */
+.join_confirm_btn1:active{
+    box-shadow: 1px 1px 0 rgb(0,0,0,0.5);
+    position: relative;
+    top:2px;
+}
+.join_confirm_btn2{
+    margin-top: 50px;
+    height: 30px;
+    border-radius: 0.25rem;
+    border-color:var(--first-color) ;
+    background: var(--first-color);
+    color: white;
+    font-size: 13px;
+}
+/* .join_confirm_btn2:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0 6px 4px rgba(0, 0, 0, 0.2);
+} */
+.join_confirm_btn2:active{
+    box-shadow: 1px 1px 0 rgb(0,0,0,0.5);
+    position: relative;
+    top:2px;
+}
+.joinWrap1 input{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 200px;
+    height: 20px;
+    border: none;
+    padding: 5px 0px;
+    font-size:18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease-in-out;
+}
+
+.joinWrap2 input{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 200px;
+    height: 20px;
+    border: none;
+    padding: 5px 0px;
+    font-size:18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease-in-out;
+}
+.joinWrap3 input{
+    margin-top: 50px;
+    width: 200px;
+    height: 20px;
+    border: none;
+    padding: 5px 0px;
+    font-size:18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease-in-out;
+}
+.joinWrap4 input{
+    margin-top: 50px;
+    width: 200px;
+    height: 20px;
+    border: none;
+    padding: 5px 0px;
+    font-size:18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease-in-out;
+}
+
+.join_errorMessageWrap{
+    color: red;
+    font-size: 12px;
+}
+
+.join-btn2{
+    margin-top: 40px;
+    width: 100px;
+    height: 40px;
+    border: 2px solid;
+    border-color: var(--first-color);
+    border-radius: 0.25rem;
+    margin-left: 5px;
+    background: var(--first-color);
+    color: aliceblue;
+}
+.join-btn2:active{
+    box-shadow: 1px 1px 0 rgb(0,0,0,0.5);
+    position: relative;
+    top:1px;
+}
+.joinWrap1{
+    display: flex;
+}
+.joinWrap2{
+    display: flex;
+}
+

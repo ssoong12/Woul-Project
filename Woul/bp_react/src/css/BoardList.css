@@ -1,0 +1,94 @@
+.board-noanswer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.board-list-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 165vh;
+}
+
+.board-list-header {
+  position: sticky;
+  text-align: center;
+  font-size: 23px;
+  font-family: "MICEGothic Bold";
+}
+
+.board-list-header th {
+  text-align: center;
+  padding: 80px;
+}
+
+.board-list-body {
+  font-size: 20px;
+  line-height: 3;
+  font-family: sans-serif;
+}
+
+.board-list-body .rounded-cell {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.board-list-body a {
+  color: black;
+  text-decoration: none;
+}
+
+.board-list-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.board-list-page button {
+  display: inline-flex;
+  margin-right: 10px;
+  padding: 7px 12px;
+  border-radius: 10px;
+  font-family: "MICEGothic Bold";
+}
+
+.board-list-page button:hover {
+  background-color: #cdcdcd;
+  color: black;
+}
+
+.board-list-write-button {
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 130px;
+  margin-left: 1100px;
+  padding: 10px 20px;
+  border: 2px solid var(--first-color);
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  background-color: transparent;
+  color: var(--first-color);
+  font-family: "MICEGothic Bold";
+}
+
+.board-list-write-button-link {
+  text-decoration: none;
+}
+
+.board-list-write-button:hover {
+  background-color: var(--first-color);
+  color: white;
+}
